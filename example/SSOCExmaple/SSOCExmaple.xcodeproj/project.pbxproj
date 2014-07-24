@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65C781A71981097E00141D12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C781A61981097E00141D12 /* Foundation.framework */; };
+		65C781A91981097E00141D12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C781A81981097E00141D12 /* CoreGraphics.framework */; };
+		65C781AB1981097E00141D12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C781AA1981097E00141D12 /* UIKit.framework */; };
+		65C781B11981097F00141D12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65C781AF1981097F00141D12 /* InfoPlist.strings */; };
+		65C781B31981097F00141D12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C781B21981097F00141D12 /* main.m */; };
+		65C781B71981097F00141D12 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C781B61981097F00141D12 /* SCAppDelegate.m */; };
+		65C781B91981097F00141D12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C781B81981097F00141D12 /* Images.xcassets */; };
+		65C781C01981097F00141D12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C781BF1981097F00141D12 /* XCTest.framework */; };
+		65C781C11981097F00141D12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C781A61981097E00141D12 /* Foundation.framework */; };
+		65C781C21981097F00141D12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C781AA1981097E00141D12 /* UIKit.framework */; };
+		65C781CA1981097F00141D12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65C781C81981097F00141D12 /* InfoPlist.strings */; };
+		65C781CC1981097F00141D12 /* SSOCExmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C781CB1981097F00141D12 /* SSOCExmapleTests.m */; };
+		65C7829219810B1D00141D12 /* SSOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C7828D19810B0200141D12 /* SSOC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65C781C31981097F00141D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C7819B1981097E00141D12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C781A21981097E00141D12;
+			remoteInfo = SSOCExmaple;
+		};
+		65C7828C19810B0200141D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65C7825919810AD700141D12;
+			remoteInfo = SSOC;
+		};
+		65C7828E19810B0200141D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65C7826C19810AD700141D12;
+			remoteInfo = SSOCTests;
+		};
+		65C7829019810B1000141D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C7825819810AD700141D12;
+			remoteInfo = SSOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65C781A31981097E00141D12 /* SSOCExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSOCExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C781A61981097E00141D12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65C781A81981097E00141D12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65C781AA1981097E00141D12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65C781AE1981097F00141D12 /* SSOCExmaple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSOCExmaple-Info.plist"; sourceTree = "<group>"; };
+		65C781B01981097F00141D12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65C781B21981097F00141D12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65C781B41981097F00141D12 /* SSOCExmaple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSOCExmaple-Prefix.pch"; sourceTree = "<group>"; };
+		65C781B51981097F00141D12 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		65C781B61981097F00141D12 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		65C781B81981097F00141D12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65C781BE1981097F00141D12 /* SSOCExmapleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSOCExmapleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C781BF1981097F00141D12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65C781C71981097F00141D12 /* SSOCExmapleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSOCExmapleTests-Info.plist"; sourceTree = "<group>"; };
+		65C781C91981097F00141D12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65C781CB1981097F00141D12 /* SSOCExmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSOCExmapleTests.m; sourceTree = "<group>"; };
+		65C7828719810B0200141D12 /* SSOC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSOC.xcodeproj; path = /Users/stonedong/Documents/myproject/stylestructoc/example/../SSOC/SSOC.xcodeproj; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65C781A01981097E00141D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C7829219810B1D00141D12 /* SSOC.framework in Frameworks */,
+				65C781A91981097E00141D12 /* CoreGraphics.framework in Frameworks */,
+				65C781AB1981097E00141D12 /* UIKit.framework in Frameworks */,
+				65C781A71981097E00141D12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C781BB1981097F00141D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C781C01981097F00141D12 /* XCTest.framework in Frameworks */,
+				65C781C21981097F00141D12 /* UIKit.framework in Frameworks */,
+				65C781C11981097F00141D12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65C7819A1981097E00141D12 = {
+			isa = PBXGroup;
+			children = (
+				65C7828719810B0200141D12 /* SSOC.xcodeproj */,
+				65C781AC1981097F00141D12 /* SSOCExmaple */,
+				65C781C51981097F00141D12 /* SSOCExmapleTests */,
+				65C781A51981097E00141D12 /* Frameworks */,
+				65C781A41981097E00141D12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65C781A41981097E00141D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C781A31981097E00141D12 /* SSOCExmaple.app */,
+				65C781BE1981097F00141D12 /* SSOCExmapleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C781A51981097E00141D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C781A61981097E00141D12 /* Foundation.framework */,
+				65C781A81981097E00141D12 /* CoreGraphics.framework */,
+				65C781AA1981097E00141D12 /* UIKit.framework */,
+				65C781BF1981097F00141D12 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65C781AC1981097F00141D12 /* SSOCExmaple */ = {
+			isa = PBXGroup;
+			children = (
+				65C781B51981097F00141D12 /* SCAppDelegate.h */,
+				65C781B61981097F00141D12 /* SCAppDelegate.m */,
+				65C781B81981097F00141D12 /* Images.xcassets */,
+				65C781AD1981097F00141D12 /* Supporting Files */,
+			);
+			path = SSOCExmaple;
+			sourceTree = "<group>";
+		};
+		65C781AD1981097F00141D12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65C781AE1981097F00141D12 /* SSOCExmaple-Info.plist */,
+				65C781AF1981097F00141D12 /* InfoPlist.strings */,
+				65C781B21981097F00141D12 /* main.m */,
+				65C781B41981097F00141D12 /* SSOCExmaple-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65C781C51981097F00141D12 /* SSOCExmapleTests */ = {
+			isa = PBXGroup;
+			children = (
+				65C781CB1981097F00141D12 /* SSOCExmapleTests.m */,
+				65C781C61981097F00141D12 /* Supporting Files */,
+			);
+			path = SSOCExmapleTests;
+			sourceTree = "<group>";
+		};
+		65C781C61981097F00141D12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65C781C71981097F00141D12 /* SSOCExmapleTests-Info.plist */,
+				65C781C81981097F00141D12 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65C7828819810B0200141D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C7828D19810B0200141D12 /* SSOC.framework */,
+				65C7828F19810B0200141D12 /* SSOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C781A21981097E00141D12 /* SSOCExmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C781CF1981097F00141D12 /* Build configuration list for PBXNativeTarget "SSOCExmaple" */;
+			buildPhases = (
+				65C7819F1981097E00141D12 /* Sources */,
+				65C781A01981097E00141D12 /* Frameworks */,
+				65C781A11981097E00141D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C7829119810B1000141D12 /* PBXTargetDependency */,
+			);
+			name = SSOCExmaple;
+			productName = SSOCExmaple;
+			productReference = 65C781A31981097E00141D12 /* SSOCExmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65C781BD1981097F00141D12 /* SSOCExmapleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C781D21981097F00141D12 /* Build configuration list for PBXNativeTarget "SSOCExmapleTests" */;
+			buildPhases = (
+				65C781BA1981097F00141D12 /* Sources */,
+				65C781BB1981097F00141D12 /* Frameworks */,
+				65C781BC1981097F00141D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C781C41981097F00141D12 /* PBXTargetDependency */,
+			);
+			name = SSOCExmapleTests;
+			productName = SSOCExmapleTests;
+			productReference = 65C781BE1981097F00141D12 /* SSOCExmapleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65C7819B1981097E00141D12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = stonedong;
+				TargetAttributes = {
+					65C781BD1981097F00141D12 = {
+						TestTargetID = 65C781A21981097E00141D12;
+					};
+				};
+			};
+			buildConfigurationList = 65C7819E1981097E00141D12 /* Build configuration list for PBXProject "SSOCExmaple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65C7819A1981097E00141D12;
+			productRefGroup = 65C781A41981097E00141D12 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 65C7828819810B0200141D12 /* Products */;
+					ProjectRef = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				65C781A21981097E00141D12 /* SSOCExmaple */,
+				65C781BD1981097F00141D12 /* SSOCExmapleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		65C7828D19810B0200141D12 /* SSOC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = SSOC.framework;
+			remoteRef = 65C7828C19810B0200141D12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65C7828F19810B0200141D12 /* SSOCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SSOCTests.xctest;
+			remoteRef = 65C7828E19810B0200141D12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65C781A11981097E00141D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C781B11981097F00141D12 /* InfoPlist.strings in Resources */,
+				65C781B91981097F00141D12 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C781BC1981097F00141D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C781CA1981097F00141D12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C7819F1981097E00141D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C781B71981097F00141D12 /* SCAppDelegate.m in Sources */,
+				65C781B31981097F00141D12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C781BA1981097F00141D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C781CC1981097F00141D12 /* SSOCExmapleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65C781C41981097F00141D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C781A21981097E00141D12 /* SSOCExmaple */;
+			targetProxy = 65C781C31981097F00141D12 /* PBXContainerItemProxy */;
+		};
+		65C7829119810B1000141D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSOC;
+			targetProxy = 65C7829019810B1000141D12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65C781AF1981097F00141D12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C781B01981097F00141D12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65C781C81981097F00141D12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C781C91981097F00141D12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65C781CD1981097F00141D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65C781CE1981097F00141D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65C781D01981097F00141D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSOCExmaple/SSOCExmaple-Prefix.pch";
+				INFOPLIST_FILE = "SSOCExmaple/SSOCExmaple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65C781D11981097F00141D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSOCExmaple/SSOCExmaple-Prefix.pch";
+				INFOPLIST_FILE = "SSOCExmaple/SSOCExmaple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65C781D31981097F00141D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSOCExmaple.app/SSOCExmaple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSOCExmaple/SSOCExmaple-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSOCExmapleTests/SSOCExmapleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		65C781D41981097F00141D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSOCExmaple.app/SSOCExmaple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSOCExmaple/SSOCExmaple-Prefix.pch";
+				INFOPLIST_FILE = "SSOCExmapleTests/SSOCExmapleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65C7819E1981097E00141D12 /* Build configuration list for PBXProject "SSOCExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C781CD1981097F00141D12 /* Debug */,
+				65C781CE1981097F00141D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C781CF1981097F00141D12 /* Build configuration list for PBXNativeTarget "SSOCExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C781D01981097F00141D12 /* Debug */,
+				65C781D11981097F00141D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65C781D21981097F00141D12 /* Build configuration list for PBXNativeTarget "SSOCExmapleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C781D31981097F00141D12 /* Debug */,
+				65C781D41981097F00141D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65C7819B1981097E00141D12 /* Project object */;
+}
