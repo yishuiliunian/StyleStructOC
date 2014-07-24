@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4CA7CA89-A3F9-4C5E-8A7E-E48689DAE15D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SSOCExmaple</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>098BA2F2-B645-4A21-A26A-BB75F4CC3179</key>
+		<string>https://github.com/yishuiliunian/StyleStructOC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>example/SSOCExmaple.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>098BA2F2-B645-4A21-A26A-BB75F4CC3179</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yishuiliunian/StyleStructOC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>098BA2F2-B645-4A21-A26A-BB75F4CC3179</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>098BA2F2-B645-4A21-A26A-BB75F4CC3179</string>
+			<key>IDESourceControlWCCName</key>
+			<string>stylestructoc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

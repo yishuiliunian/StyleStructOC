@@ -16,6 +16,7 @@
 		65C7827619810AD700141D12 /* SSOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C7825919810AD700141D12 /* SSOC.framework */; };
 		65C7827C19810AD700141D12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65C7827A19810AD700141D12 /* InfoPlist.strings */; };
 		65C7827E19810AD700141D12 /* SSOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7827D19810AD700141D12 /* SSOCTests.m */; };
+		65C7829319810B2400141D12 /* SSOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C7826519810AD700141D12 /* SSOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C7829319810B2400141D12 /* SSOC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
