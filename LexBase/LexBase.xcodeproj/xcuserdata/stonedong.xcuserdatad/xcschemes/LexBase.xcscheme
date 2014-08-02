@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65C7825819810AD700141D12"
-               BuildableName = "SSOC.framework"
-               BlueprintName = "SSOC"
-               ReferencedContainer = "container:SSOC.xcodeproj">
+               BlueprintIdentifier = "65CAC8291988BFBF00F66920"
+               BuildableName = "LexBase.app"
+               BlueprintName = "LexBase"
+               ReferencedContainer = "container:LexBase.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,13 +32,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65C7826B19810AD700141D12"
-               BuildableName = "SSOCTests.xctest"
-               BlueprintName = "SSOCTests"
-               ReferencedContainer = "container:SSOC.xcodeproj">
+               BlueprintIdentifier = "65CAC8441988BFBF00F66920"
+               BuildableName = "LexBaseTests.xctest"
+               BlueprintName = "LexBaseTests"
+               ReferencedContainer = "container:LexBase.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "65CAC8291988BFBF00F66920"
+            BuildableName = "LexBase.app"
+            BlueprintName = "LexBase"
+            ReferencedContainer = "container:LexBase.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -49,6 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "65CAC8291988BFBF00F66920"
+            BuildableName = "LexBase.app"
+            BlueprintName = "LexBase"
+            ReferencedContainer = "container:LexBase.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "65CAC8291988BFBF00F66920"
+            BuildableName = "LexBase.app"
+            BlueprintName = "LexBase"
+            ReferencedContainer = "container:LexBase.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

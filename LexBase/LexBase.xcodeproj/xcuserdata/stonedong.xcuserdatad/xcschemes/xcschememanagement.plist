@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SSOC.xcscheme</key>
+		<key>LexBase.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>65C7825819810AD700141D12</key>
+		<key>65CAC8291988BFBF00F66920</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>65C7826B19810AD700141D12</key>
+		<key>65CAC8441988BFBF00F66920</key>
 		<dict>
 			<key>primary</key>
 			<true/>

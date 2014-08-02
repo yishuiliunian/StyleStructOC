@@ -1,0 +1,64 @@
+%{
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include "lb.header.h"
+    
+    struct LBStyleSheet stypeSheet;
+    
+    extern void sendParsedData(struct LBStyleSheet* sheet);
+    
+%}
+
+%union {
+    struct ast* a;
+    char* str;
+    struct LBColor* co;
+    struct LBDeclaration* declaration;
+    struct LBCssRule* rule;
+    struct LBSelector* selector;
+}
+
+%token <str> STRING
+%token <str> USERVAR
+
+//
+%token EOL
+%token ENDFILE
+
+
+
+
+%type <rule> ident
+//%type <selector> selector_inner
+%type <declaration> stmt
+
+%%
+
+//selector_inner: '.' STRING {
+//    $$ = LBSelectorMake(0, $2);
+//}
+//;
+
+SOLID_DESC : ident EOL ENDFILE {
+    sendParsedData(&stypeSheet);
+    return 0;
+}
+
+ident: '.' STRING '{' stmt '}' {
+    struct LBSelector* selector = LBSelectorMake(1, $2);
+    struct LBCssRule* rule = LBCssRuleMake(selector, $4);
+    LBStyleSheetAddRule(&stypeSheet, rule);
+}
+;
+
+
+stmt: USERVAR '=' STRING  {
+    struct LBDeclaration* decl = LBDeclarationMake($1, $3, 3);
+    $$ = decl;
+} | STRING '=' STRING {
+    
+}
+
+;
+
+%%

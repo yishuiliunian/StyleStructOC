@@ -19,7 +19,11 @@
 		65C781C21981097F00141D12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C781AA1981097E00141D12 /* UIKit.framework */; };
 		65C781CA1981097F00141D12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65C781C81981097F00141D12 /* InfoPlist.strings */; };
 		65C781CC1981097F00141D12 /* SSOCExmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C781CB1981097F00141D12 /* SSOCExmapleTests.m */; };
-		65C7829219810B1D00141D12 /* SSOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C7828D19810B0200141D12 /* SSOC.framework */; };
+		65CAC8161987B96B00F66920 /* test.css in Resources */ = {isa = PBXBuildFile; fileRef = 65CAC8151987B96B00F66920 /* test.css */; };
+		65CAC81B1988953000F66920 /* fb3-2.lm in Sources */ = {isa = PBXBuildFile; fileRef = 65CAC8181988953000F66920 /* fb3-2.lm */; };
+		65CAC81C1988953000F66920 /* fb3-2.ym in Sources */ = {isa = PBXBuildFile; fileRef = 65CAC8191988953000F66920 /* fb3-2.ym */; };
+		65CAC81D1988953000F66920 /* fb3-2funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 65CAC81A1988953000F66920 /* fb3-2funcs.c */; };
+		65CAC8201988958900F66920 /* SSCssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CAC81F1988958900F66920 /* SSCssParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,27 +33,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 65C781A21981097E00141D12;
 			remoteInfo = SSOCExmaple;
-		};
-		65C7828C19810B0200141D12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65C7825919810AD700141D12;
-			remoteInfo = SSOC;
-		};
-		65C7828E19810B0200141D12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65C7826C19810AD700141D12;
-			remoteInfo = SSOCTests;
-		};
-		65C7829019810B1000141D12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 65C7825819810AD700141D12;
-			remoteInfo = SSOC;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,7 +53,13 @@
 		65C781C71981097F00141D12 /* SSOCExmapleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSOCExmapleTests-Info.plist"; sourceTree = "<group>"; };
 		65C781C91981097F00141D12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65C781CB1981097F00141D12 /* SSOCExmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSOCExmapleTests.m; sourceTree = "<group>"; };
-		65C7828719810B0200141D12 /* SSOC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSOC.xcodeproj; path = /Users/stonedong/Documents/myproject/stylestructoc/example/../SSOC/SSOC.xcodeproj; sourceTree = "<absolute>"; };
+		65CAC8151987B96B00F66920 /* test.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = test.css; sourceTree = "<group>"; };
+		65CAC8171988953000F66920 /* fb3-2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fb3-2.h"; sourceTree = "<group>"; };
+		65CAC8181988953000F66920 /* fb3-2.lm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; path = "fb3-2.lm"; sourceTree = "<group>"; };
+		65CAC8191988953000F66920 /* fb3-2.ym */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = "fb3-2.ym"; sourceTree = "<group>"; };
+		65CAC81A1988953000F66920 /* fb3-2funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "fb3-2funcs.c"; sourceTree = "<group>"; };
+		65CAC81E1988958900F66920 /* SSCssParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCssParser.h; sourceTree = "<group>"; };
+		65CAC81F1988958900F66920 /* SSCssParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCssParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C7829219810B1D00141D12 /* SSOC.framework in Frameworks */,
 				65C781A91981097E00141D12 /* CoreGraphics.framework in Frameworks */,
 				65C781AB1981097E00141D12 /* UIKit.framework in Frameworks */,
 				65C781A71981097E00141D12 /* Foundation.framework in Frameworks */,
@@ -101,7 +89,7 @@
 		65C7819A1981097E00141D12 = {
 			isa = PBXGroup;
 			children = (
-				65C7828719810B0200141D12 /* SSOC.xcodeproj */,
+				65CAC8101987A62500F66920 /* parser */,
 				65C781AC1981097F00141D12 /* SSOCExmaple */,
 				65C781C51981097F00141D12 /* SSOCExmapleTests */,
 				65C781A51981097E00141D12 /* Frameworks */,
@@ -134,6 +122,7 @@
 			children = (
 				65C781B51981097F00141D12 /* SCAppDelegate.h */,
 				65C781B61981097F00141D12 /* SCAppDelegate.m */,
+				65CAC8151987B96B00F66920 /* test.css */,
 				65C781B81981097F00141D12 /* Images.xcassets */,
 				65C781AD1981097F00141D12 /* Supporting Files */,
 			);
@@ -169,13 +158,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		65C7828819810B0200141D12 /* Products */ = {
+		65CAC8101987A62500F66920 /* parser */ = {
 			isa = PBXGroup;
 			children = (
-				65C7828D19810B0200141D12 /* SSOC.framework */,
-				65C7828F19810B0200141D12 /* SSOCTests.xctest */,
+				65CAC81E1988958900F66920 /* SSCssParser.h */,
+				65CAC81F1988958900F66920 /* SSCssParser.m */,
+				65CAC8171988953000F66920 /* fb3-2.h */,
+				65CAC8181988953000F66920 /* fb3-2.lm */,
+				65CAC8191988953000F66920 /* fb3-2.ym */,
+				65CAC81A1988953000F66920 /* fb3-2funcs.c */,
 			);
-			name = Products;
+			name = parser;
+			path = ../../SSOC/SSOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +186,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				65C7829119810B1000141D12 /* PBXTargetDependency */,
 			);
 			name = SSOCExmaple;
 			productName = SSOCExmaple;
@@ -242,12 +235,6 @@
 			mainGroup = 65C7819A1981097E00141D12;
 			productRefGroup = 65C781A41981097E00141D12 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 65C7828819810B0200141D12 /* Products */;
-					ProjectRef = 65C7828719810B0200141D12 /* SSOC.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				65C781A21981097E00141D12 /* SSOCExmaple */,
@@ -256,23 +243,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		65C7828D19810B0200141D12 /* SSOC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework.static;
-			path = SSOC.framework;
-			remoteRef = 65C7828C19810B0200141D12 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		65C7828F19810B0200141D12 /* SSOCTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SSOCTests.xctest;
-			remoteRef = 65C7828E19810B0200141D12 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		65C781A11981097E00141D12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -280,6 +250,7 @@
 			files = (
 				65C781B11981097F00141D12 /* InfoPlist.strings in Resources */,
 				65C781B91981097F00141D12 /* Images.xcassets in Resources */,
+				65CAC8161987B96B00F66920 /* test.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CAC81D1988953000F66920 /* fb3-2funcs.c in Sources */,
+				65CAC81C1988953000F66920 /* fb3-2.ym in Sources */,
+				65CAC81B1988953000F66920 /* fb3-2.lm in Sources */,
 				65C781B71981097F00141D12 /* SCAppDelegate.m in Sources */,
+				65CAC8201988958900F66920 /* SSCssParser.m in Sources */,
 				65C781B31981097F00141D12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,11 +293,6 @@
 			isa = PBXTargetDependency;
 			target = 65C781A21981097E00141D12 /* SSOCExmaple */;
 			targetProxy = 65C781C31981097F00141D12 /* PBXContainerItemProxy */;
-		};
-		65C7829119810B1000141D12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSOC;
-			targetProxy = 65C7829019810B1000141D12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -503,6 +473,7 @@
 				65C781D11981097F00141D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65C781D21981097F00141D12 /* Build configuration list for PBXNativeTarget "SSOCExmapleTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +482,7 @@
 				65C781D41981097F00141D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

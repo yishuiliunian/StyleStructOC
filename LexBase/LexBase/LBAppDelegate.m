@@ -1,26 +1,27 @@
 //
-//  SCAppDelegate.m
-//  SSOCExmaple
+//  LBAppDelegate.m
+//  LexBase
 //
-//  Created by stonedong on 14-7-24.
+//  Created by stonedong on 14-7-30.
 //  Copyright (c) 2014年 stonedong. All rights reserved.
 //
 
-#import "SCAppDelegate.h"
+#import "LBAppDelegate.h"
+#import "LBParser.h"
+#import "LBViewController.h"
 
-#import "SSCssParser.h"
-@implementation SCAppDelegate
+@implementation LBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"css"];
-    SSCssParser * a = [[SSCssParser alloc] initWithFile:filePath];
-    [a parse];
+    
+
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [LBViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }
